@@ -6,21 +6,21 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-		<title>Joseph Frasier Front End Developer</title>
+	<title>Catch Of The Day</title>
 
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="assets/images/mylogo.png">
-	<link rel="apple-touch-icon" href="assets/images/mylogo.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/mylogo.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/mylogo.png">
+		<link rel="shortcut icon" href="assets/images/mylogo.png">
+		<link rel="apple-touch-icon" href="assets/images/mylogo.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/images/mylogo.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/images/mylogo.png">
 
 	<!-- Bootstrap core CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Plugins -->
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/ionicons.min.css" rel="stylesheet">
 	<link href="assets/css/linea-icons.css" rel="stylesheet">
+	<link href="assets/css/ionicons.min.css" rel="stylesheet">
 	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
 	<link href="assets/css/magnific-popup.css" rel="stylesheet">
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
@@ -50,17 +50,23 @@
 				<ul id="nav">
 
 					<li class="slidedown">
-						<li><a href="index.html">Home Page</a></li>
+						<a href="#">Home</a>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+				
+						</ul>
 					</li>
 
+					<li><a href="about.html">About</a></li>
 
 					<li class="slidedown">
 						<a href="#">Portfolio</a>
 						<ul>
-						<li><a href="portfolio-single-1.html">MCBC</a></li>
-							<li><a href="connectall.html">Connect All App</a></li>
+							<li><a href="portfolio-single-1.html">MCBC</a></li>
+							<li><a href="portfolio-single-2.html">Connect All App</a></li>
 							<li><a href="catchoftheday.html">Catch Of The Day</a></li>
 							<li><a href="portfolio-single-4.html">Claws and Paws Veterinary Clinic</a></li>
+							
 						</ul>
 					</li>
 
@@ -131,151 +137,143 @@
 		<!-- /NAVIGATION -->
 
 		<!-- HERO -->
-		<section class="module module-parallax bg-light-30" data-background="assets/images/snow.jpg">
+		<section id="hero" class="module-hero module-video module-full-height bg-light-30" data-background="assets/images/section-11.jpg">
 
 			<!-- HERO TEXT -->
-			<div class="container">
+			<div class="hero-caption">
+				<div class="hero-text">
 
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h1 class="mh-line-size-3 font-alt m-b-20">About Joseph</h1>
-						<h5 class="mh-line-size-4 font-alt">Make it good, then try and make it better.</h5>
-					</div>
+					<h1 class="mh-line-size-3 font-alt m-b-20">Catch Of The Day</h1>
+					<h5 class="mh-line-size-6">Seafood restaurant menu that dynamically changes based off of customer orders, back-end adjustments with user authentication.</h5>
+
 				</div>
-
 			</div>
 			<!-- /HERO TEXT -->
+
+			<!-- YOUTUBE VIDEO-->
+			<div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=tEHQT6taci0', containment:'.module-video', quality:'large', startAt:20, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:0, mute:true}"></div>
+			<!-- /YOUTUBE VIDEO-->
 
 		</section>
 		<!-- /HERO -->
 
-		<!-- ABOUT -->
+		<!-- SINGLE PORTFOLIO -->
 		<section class="module">
 
 			<div class="container">
 
-				<div class="row">
+				<!-- PROJECT DETAILS -->
+				<div class="row m-b-70">
 
-					<!-- ABOUT STUDIO  -->
-					<div class="col-sm-4">
+					<div class="col-md-4">
 
-						<h4 class="font-alt m-t-0 m-b-20">About Me</h4>
-						<p>My name is Joseph Frasier and I am a Developer. I have always loved tech and being able to create things out of nothing.
-						My main goal is to be able to use my skills and then help people understand technology. Whether it's explaining a line of
-						code or figuring out how to visualize data, I feel technology can be used tremendously to help people in their day to day
-						life. I love everything Front-End from creating websites, to figuring which framework to use or how to organize it, you get the idea.
-						I've handled websites built on Wordpress, Squarespace and completely from scratch. Language-wise, I love me some Javascript,
-						HTML, CSS, React, Redux and I'm familiar with Node.Js, MongoDB and Postgres.</p>
+						<ul class="project-details m-b-sm-30">
+							<li class="font-alt">Categories: <a href="#">Business</a></li>
+							<li class="font-alt">Released: 20th October 2016</li>
+						</ul>
 
+					</div>
+
+					<div class="col-md-8">
+
+						<h5 class="font-alt m-t-0">Description</h5>
+						
+							<p>This ReactJS application simulates a restaurant database (Firebase) that is assigned specifically to the restaurant owner.  It uses the users login credentials and matches that user to that appropriate store.  The menu is dynamic with custom CSS animations, and updates in real time when items are changed on the kitchen's end in both the menu and order form.  it uses React, HTML, CSS and Firebase.
+
+							</p>
+						</h5>
+
+					</div>
+
+				</div>
+				<!-- /PROJECT DETAILS -->
+
+				<!-- PORTFOLIO CONTENT -->
 				
-
-					</div>
-					<!-- /ABOUT STUDIO  -->
-
-					<!-- WHAT WE DO -->
-					<div class="col-sm-4">
-						<img class="img-circle" src="assets/images/mypic.jpg" width="270px" alt="">
-
-					</div>
-					<!-- /WHAT WE DO -->
-
-					<!-- SKILLS -->
-					<div class="col-sm-4">
-
-						<h6 class="progress-title font-alt">Front-End</h6>
-						<div class="progress">
-							<div class="progress-bar pb-dark" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<span class="font-alt"></span>
-							</div>
-						</div>
-
-						<h6 class="progress-title font-alt">Back-End</h6>
-						<div class="progress">
-							<div class="progress-bar pb-dark" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-								<span class="font-alt"></span>
-							</div>
-						</div>
-
-
-					</div>
-					<!-- /SKILLS -->
-
-				</div>
-
-			</div>
-
-		</section >
-		<!-- /ABOUT -->
-
-
-
-		<!-- SERVICES -->
-	
-		
-		<!-- /SERVICES -->
-
-		<!-- TESTIMONIALS -->
-		<section class="module module-parallax bg-light-30" data-background="assets/images/section-3.jpg">
-
-			<div class="container">
-
-				<div class="row">
-
-					<div class="col-sm-6 col-sm-offset-3">
-
-						<!-- TESTIMONIALS CAROUSEL -->
-						<div class="owl-carousel slider-testimonials text-center">
-
-							<!-- SLIDE 1 -->
-							
-							<!-- /SLIDE 1 -->
-
-							<!-- SLIDE 2 -->
-							
-							<!-- /SLIDE 2 -->
-
-							<!-- SLIDE 3 -->
-							
-							<!-- /SLIDE 3 -->
-
-						</div>
-						<!-- /TESTIMONIALS CAROUSEL -->
-
-					</div>
-
-				</div>
+				<!-- /PORTFOLIO CONTENT -->
 
 			</div>
 
 		</section>
-		<!-- /TESTIMONIALS -->
+		<!-- /SINGLE PORTFOLIO -->
 
-		<!-- TEAM -->
+		<hr class="divider"><!-- DIVIDER -->
 
+		<!-- RELATED PROJECT -->
+		<section class="module">
 
 			<div class="container">
 
 				<!-- MODULE TITLE -->
-
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h2 class="module-title font-alt">Related Project</h2>
+					</div>
+				</div>
 				<!-- /MODULE TITLE -->
 
+				<!-- WORKS GRID -->
 				<div class="row">
 
+					<div id="works-grid" class="works-grid works-hover-w">
 
-					<!-- /TEAM MEMBER -->
+						<!-- DO NOT DELETE THIS DIV -->
+						<div class="grid-sizer"></div>
+
+						<!-- PORTFOLIO ITEM -->
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item tall businesses">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/mcbcbig.png" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">Church Website</h3>
+									<div class="work-descr">
+										Businesses
+									</div>
+								</div>
+							</a>
+						</div>
+						<!-- /PORTFOLIO ITEM -->
+						
+						<!-- PORTFOLIO ITEM -->
+						<div class="work-item apps">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/caapp.png" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">Connect All App</h3>
+									<div class="work-descr">
+										Insurance Web Application
+									</div>
+								</div>
+							</a>
+						</div>
+						
+
+						
+						<div class="work-item businesses">
+							<a href="portfolio-single-1.html">
+								<img src="assets/images/portfolio/pet.png" alt="">
+								<div class="work-caption font-alt">
+									<h3 class="work-title">Claws and Paws Veterinary Hospital</h3>
+									<div class="work-descr">
+										Pet Clinic Website
+									</div>
+								</div>
+							</a>
+						</div>
+						
+						<!-- /PORTFOLIO ITEM -->
+						<!-- /PORTFOLIO ITEM -->
+
+					</div>
 
 				</div>
+				<!-- /WORKS GRID -->
 
 			</div>
 
 		</section>
-		<!-- /TEAM -->
-
-		<hr class="divider"><!-- DIVIDER -->
-
-		<!-- CLIENTS -->
-		
-		<!-- /CLIENTS -->
+		<!-- /RELATED PROJECT -->
 
 		<!-- FOOTER -->
 		<footer class="module bg-light">
